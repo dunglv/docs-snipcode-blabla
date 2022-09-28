@@ -11,6 +11,6 @@ D:
 ECHO CD to mysql
 CD xampp\mysql\bin
 ECHO Connect database
-mysqldump --host=139.162.1.218 --user=dev --password=Toil@toi123 rikkei-test > D:\project\rikkeisoft.com\19094dn1_renew_rikkeisite_docs\DB_BACKUP\%datestr%_rikkeisoft_backup.sql
+mysqldump --host=[db_ip_public_server] --user=[db_user] --password=[db_password] [db_schema_dbackup] > [local_absolute_path]\%datestr%_db_backup.sql
 ECHO BACKUP DONE
 PAUSE
